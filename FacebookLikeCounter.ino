@@ -39,8 +39,8 @@ String ProcessLikes(){
       lcd.print(like);
       lcd.write((uint8_t)6);
       lcd.write((uint8_t)7);
-      lcd.print(" "+talk);      
-      lcd.write(0b00100011);
+      /*lcd.print(" "+talk);   //disable tanking somepage may not show    
+      lcd.write(0b00100011);*/
     }
   }
 }
